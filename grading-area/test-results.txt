@@ -1,0 +1,29 @@
+JUnit version 4.13.2
+....E.....E.E
+Time: 0.026
+There were 3 failures:
+1) testFilter3(TestListExamples)
+java.lang.AssertionError: expected:<[Sun, sun]> but was:<[Moon, moon]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at TestListExamples.testFilter3(TestListExamples.java:70)
+2) testMergeRightEnd(TestListExamples)
+java.lang.AssertionError: expected:<[a, a, b, c, d]> but was:<[a, b, c, d]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at TestListExamples.testMergeRightEnd(TestListExamples.java:19)
+3) testMergeLeftEnd(TestListExamples)
+java.lang.AssertionError: expected:<[a, a, a, b, d, e]> but was:<[a, a, b, d, e]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at TestListExamples.testMergeLeftEnd(TestListExamples.java:28)
+
+FAILURES!!!
+Tests run: 10,  Failures: 3
+
